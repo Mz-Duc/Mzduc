@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prod-feat, [id="category-page"], [id="artist-page"], div[id=""] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.prod-feat {
+    text-align: center;
+}
+.prod-feat {
+    text-align: center;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.home .col-mid, .category .col-mid, .search .col-mid {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+}
+
+.zoomout:hover {
+  transform: scale(1.2);
+}
+.zoomout{
+  transition: tranform .2s;
+}
+#background-video{
+
+height: 100%;
+width: 100%;
+float: left;
+top: 0;
+padding: none;
+position: fixed; /* optional depending on what you want to do in your app */
+
+
+}
