@@ -32,7 +32,6 @@ class Nav extends Component {
               <li className="nav-item ">
               <NavLink className="nav-link" to="/lien-he">Contact</NavLink>
               </li>
-            
             </ul>
             <a className="ml-5 nav-link fas fa-user fa-lg" href="#"></a>
             <a className="fas fa-shopping-cart fa-lg" href="#"></a>

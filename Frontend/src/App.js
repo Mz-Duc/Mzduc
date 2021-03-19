@@ -12,19 +12,19 @@ import {
   route,
   Link
 } from "react-router-dom";
+import Addproduct from './component/Addproduct';
 
 class App extends Component {
   
   render() {
     return (
-      
+      <div >
       <Router>
-      <div>
-        <Nav/>
-       <DieuhuongURL/>
+        <Nav/><Addproduct/>
+       <DieuhuongURL/>  <Background/>
      <Footer/>
-      </div>
       </Router>
+      </div>   
     );
   }
 }

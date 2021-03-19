@@ -1,0 +1,9 @@
+{
+  "name": "product_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd Frontend && start npm start && cd ../Backend/myapp/ && start npm start"
+    
+  }
+}

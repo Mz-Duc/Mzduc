@@ -12,13 +12,13 @@ class avd extends Component {
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide" />
+            <img className="d-block img-fluid text" src="https://th.bing.com/th/id/OIP.DReeSMXg_Di47kdL-rso8gHaLG?pid=ImgDet&rs=1" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide" />
+            <img className="d-block img-fluid text" src="https://th.bing.com/th/id/OIP.CF8zj8KjH6al0loWwwpt_gHaD3?pid=ImgDet&rs=1" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide" />
+            <img className="d-block img-fluid text" src="https://th.bing.com/th/id/OIP.0AxagCGKBrb7eXzVVc03ywHaE8?pid=ImgDet&rs=1" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
